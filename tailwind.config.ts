@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        gray: '#515451',
+        grayButton: '#515451',
         black: '#000000',
         white: '#FFFFFF',
         redLight: '#D9200A',
