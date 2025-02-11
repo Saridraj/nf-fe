@@ -1,7 +1,7 @@
 'use client';
 import { redirect } from 'next/navigation';
 import Image from 'next/image';
-import { Search, Bell, ChevronDown } from 'lucide-react';
+import { Search, Bell, ChevronDown} from 'lucide-react';
 
 const NavBar = () => {
   return (
@@ -32,14 +32,14 @@ const NavBar = () => {
               layout='fixed'
             />
           </div>
-          <div className='h-fit w-[700px] hidden xl:flex'>
+          <div className='h-fit absolute sm:relative mt-[100px] sm:mt-0 w-screen sm:w-[700px] -ml-6 sm:-ml-0 px-10 sm:px-0 '>
             <ul className='flex w-full items-center justify-between text-[18px] text-white'>
-              <li className='font-bold'>Home</li>
-              <li>TV Shows</li>
-              <li>Movies</li>
-              <li>New & Popular</li>
-              <li>My List</li>
-              <li>Browse by Languages</li>
+              <li className='font-bold hidden xl:flex'>Home</li>
+              <li className='sm:hidden xl:flex'>TV Shows</li>
+              <li className='sm:hidden xl:flex'>Movies</li>
+              <li className='sm:hidden xl:flex'>New & Popular</li>
+              <li className='hidden xl:flex'>My List</li>
+              <li className='hidden xl:flex'>Browse by Languages</li>
             </ul>
           </div>
         </div>
