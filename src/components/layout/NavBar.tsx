@@ -32,8 +32,8 @@ const NavBar = () => {
               layout='fixed'
             />
           </div>
-          <div className='h-fit w-[800px] hidden xl:flex'>
-            <ul className='flex w-full items-center justify-between text-[22px] text-white'>
+          <div className='h-fit w-[700px] hidden xl:flex'>
+            <ul className='flex w-full items-center justify-between text-[18px] text-white'>
               <li className='font-bold'>Home</li>
               <li>TV Shows</li>
               <li>Movies</li>
