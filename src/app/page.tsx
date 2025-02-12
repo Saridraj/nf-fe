@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <div className='flex flex-col items-center justify-center bg-black text-black'>
       <NavBar />
-      <div className='z-60 relative -mt-[102px] flex h-fit min-h-screen w-full flex-col items-center justify-center bg-[url("/images/MainShowBGMobile.png")] bg-cover bg-center bg-no-repeat pt-[102px] sm:h-full sm:items-start sm:bg-[url("/images/MainShowBG.svg")] sm:pl-[92px]'>
+      <div className='z-60 relative -mt-[102px] flex h-fit min-h-screen w-full flex-col items-center justify-center bg-[url("/images/MainShowBGMobile.svg")] bg-cover bg-center bg-no-repeat pt-[102px] sm:h-full sm:items-start sm:bg-[url("/images/MainShowBG.svg")] sm:pl-[92px]'>
         <div className='absolute inset-0 bg-gradient-to-t from-black to-black/0 sm:bg-gradient-to-r sm:from-black/60'></div>
         <div className='z-50 flex h-[500px] max-w-[889px] flex-col items-center justify-end text-white sm:h-[70%] sm:items-start'>
           <div className='mb-5 w-[100px] sm:w-[150px]'>
